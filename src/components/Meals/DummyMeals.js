@@ -1,20 +1,20 @@
 export const DUMMY_MEALS = [
     {
         id: 'm1',
-        name: 'Sushi',
-        description: 'Finest fish and veggies',
+        name: 'Vegie Sushi',
+        description: 'Tofu and veggies',
         price: 22.99,
     },
     {
         id: 'm2',
-        name: 'Schnitzel',
-        description: 'A german specialty!',
+        name: 'Tofu Schnitzel',
+        description: 'An Istaeli specialty!',
         price: 16.5,
     },
     {
         id: 'm3',
-        name: 'Barbecue Burger',
-        description: 'American, raw, meaty',
+        name: 'Seitan Barbecue Burger',
+        description: 'Taste and smells like meat',
         price: 12.99,
     },
     {

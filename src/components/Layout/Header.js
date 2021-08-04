@@ -6,7 +6,7 @@ import HeaderCartButton from "./HeaderCartButton";
 const Header = props => {
     return <Fragment>
         <header className={classes.header}>
-            <h1>Food Ordering</h1>
+            <h1>Vegies</h1>
             <HeaderCartButton />
         </header>
         <div className={classes['main-image']}>
