@@ -8,7 +8,7 @@ export const DUMMY_MEALS = [
     {
         id: 'm2',
         name: 'Tofu Schnitzel',
-        description: 'An Istaeli specialty!',
+        description: 'An Israeli specialty!',
         price: 16.5,
     },
     {
