@@ -24,7 +24,7 @@ const MealItemForm = props => {
    props.onAddToCart(enteredAmountNumber);
  }
 
- const generateInputId = `amount_${Math.floor(100000 + Math.random() * 900000)}`;
+ const generateInputId = `amount_${props.id}`;
  return <form className={classes.form} onSubmit={submitHandler}>
   <Input ref={amountInputRef} label="Amount" input={
    {id: generateInputId, type: 'number', min: 1, max: 5, step: 1, defaultValue: 1}
